@@ -1,0 +1,9 @@
+.a {
+    background: black;
+}
+.b {
+    -webkit-background-origin: padding-box;
+}
+.c {
+    -moz-border-corner-image-transform: rotate;
+}

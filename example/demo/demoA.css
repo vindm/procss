@@ -1,0 +1,11 @@
+a.first
+{
+    color: green;
+    content : 'hello, world!' /* procss.mood() */;
+}
+
+a.second
+{
+    color: blue /* procss.mood() */;
+    text-overflow: ellipsis;
+}

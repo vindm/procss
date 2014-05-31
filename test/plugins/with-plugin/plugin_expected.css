@@ -1,0 +1,11 @@
+.a {
+    background: black;
+    -procss-content: tested;
+}
+.b {
+    -webkit-background-origin: padding-box;
+    -procss-content: tested;
+}
+.c {
+    -moz-border-corner-image-transform: rotate;
+}

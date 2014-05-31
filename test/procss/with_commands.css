@@ -1,0 +1,21 @@
+.a
+{
+    background: url(1.png) /* procss.test(test, 1) */;
+    color: black;
+}
+
+.a1
+{
+    background: url(1.png), url(2.png) /* procss.test(test, 2) */;
+}
+
+.a2
+{
+    background: url(1.png), url(2.png) ;
+    background-position: center bottom, left top /* procss.test(test, 1) */;;
+}
+
+.a3
+{
+    -webkit-background-origin: padding-box  /* procss.test(test, 1) */;
+}

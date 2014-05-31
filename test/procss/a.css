@@ -1,0 +1,50 @@
+.a
+{
+    background: url(1.png) /* procss.sprite(a) */;
+    color: black;
+}
+.a1
+{
+    background: url(1.png), url(2.png) /* procss.sprite(a) */;
+}
+.a2
+{
+    background: url(1.png), url(2.png) /* procss.sprite(a) */;
+    background-position: center bottom, left top;
+}
+.a3
+{
+    background: url(1.png) center bottom no-repeat, url(2.png) no-repeat /* procss.sprite(a) */;
+}
+
+.b
+{
+    background-image: url(1.png) /* procss.sprite(b) */;
+}
+.b1
+{
+    background-image: url(1.png), url(2.png) /* procss.sprite(b) */;
+}
+.b2
+{
+    background-image: url(1.png), url(2.png) /* procss.sprite(b) */;
+}
+.b3
+{
+    background-image: url(1.png), url(2.png) /* procss.sprite(b) */;
+    background-position: center bottom, left top;
+}
+
+.c
+{
+    background-image: url(1.png) /* procss.sprite() */;
+}
+.c1
+{
+    background-image: url(1.png), url(2.png) /* procss.sprite(b) */;
+}
+.c2
+{
+    background-image: url(1.png), url(2.png) /* procss.sprite(b) */;
+    background-position: center bottom, left top;
+}

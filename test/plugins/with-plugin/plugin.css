@@ -1,0 +1,9 @@
+.a {
+    background: black /* procss.test() */;
+}
+.b {
+    -webkit-background-origin: padding-box /* procss.test() */;
+}
+.c {
+    -moz-border-corner-image-transform: rotate /* procss.not_test() */;
+}

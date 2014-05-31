@@ -1,0 +1,10 @@
+b.first
+{
+    font-size: 2px;
+    content : 'I love you...' /* procss.mood() */;
+}
+
+b.second
+{
+    color : black /* procss.mood() */;
+}

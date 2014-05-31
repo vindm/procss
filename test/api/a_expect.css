@@ -1,0 +1,8 @@
+.a
+{
+	animation: anim 1s linear .5s 2 /* some comment */;
+}
+.b
+{
+	animation: anim 1s linear .5s 2;
+}

@@ -1,0 +1,24 @@
+/* third#before */
+/* second#before */
+/* first#before */
+.a {
+    background: black;
+    -procss-content: first#process;
+    -procss-content: second#process;
+    -procss-content: third#process;
+}
+.b {
+    -webkit-background-origin: padding-box;
+    -procss-content: first#process;
+    -procss-content: second#process;
+    -procss-content: third#process;
+}
+.c {
+    -moz-border-corner-image-transform: rotate;
+    -procss-content: first#process;
+    -procss-content: second#process;
+    -procss-content: third#process;
+}
+/* first#after */
+/* second#after */
+/* third#after */

@@ -1,0 +1,18 @@
+.a
+{
+    background: url(1.png) /* procss.test(a) */;
+    color: black;
+}
+.a1
+{
+    background: url(1.png), url(2.png) /* procss.test(a) */;
+}
+.a2
+{
+    background: url(1.png), url(2.png) /* procss.lol(a) */;
+    background-position: center bottom, left top;
+}
+.a3
+{
+    background: url(1.png) center bottom no-repeat, url(2.png) no-repeat /* procss.lol(a) */;
+}
