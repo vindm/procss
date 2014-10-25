@@ -77,33 +77,33 @@ module.exports = {
             '\nProcessing command: ' + scope.command.name
         );
 
-            if (scope.decl.prop === 'content') {
-                scope.decl.value = isAngry ?
-                    '"Fuck off, world!"' :
-                    '"I LOVE YOU!"';
+        if (scope.decl.prop === 'content') {
+            scope.decl.value = isAngry ?
+                '"BAD BAD NOT GOOD"' :
+                '"GOOD GOOD NOT BAD"';
+        }
+
+        isColorExist = scope.rule.decls.some(function(decl) {
+            if (decl.prop === 'color') {
+                decl.value = isAngry ? 'red' : 'pink';
+
+                return true;
             }
 
-            isColorExist = scope.rule.decls.some(function(decl) {
-                if (decl.prop === 'color') {
-                    decl.value = isAngry ? 'red' : 'pink';
+            if ( ! isAngry && decl.prop === 'font-size') {
+                decl.value = '48px';
+            }
+        });
 
-                    return true;
-                }
-
-                if ( ! isAngry && decl.prop === 'font-size') {
-                    decl.value = '48px';
-                }
+        if ( ! isColorExist) {
+            scope.rule.append({
+                prop : 'color',
+                value : isAngry ? 'red' : 'pink'
             });
+        }
 
-            if ( ! isColorExist) {
-                scope.rule.append({
-                    prop : 'color',
-                    value : isAngry ? 'red' : 'pink'
-                });
-            }
-
-            (scope.angrifiedCount || (scope.angrifiedCount = 0));
-            scope.angrifiedCount++;
+        (scope.angrifiedCount || (scope.angrifiedCount = 0));
+        scope.angrifiedCount++;
     },
 
     /**

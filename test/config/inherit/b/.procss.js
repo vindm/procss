@@ -1,9 +1,7 @@
-module.exports = [
-	{
-		patterns : '**/b.css',
-		config : {
-			output : '_b_?',
-			plugins : [ 'test' ]
-		}
-	}
-];
+module.exports = [ {
+    file_paths : '**/b.css',
+    config : {
+        output : '_b_?',
+        plugins : [ 'test' ]
+    }
+} ];
