@@ -1,4 +1,4 @@
 module.exports = {
-	output : 'changed_?.css',
-	plugins : [ 'some-plugin' ]
+    output : 'changed_?.css',
+    plugins : [ 'some-plugin' ]
 };

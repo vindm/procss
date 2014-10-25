@@ -2,36 +2,32 @@ module.exports = [
 
     // common config
     {
-        patterns : [ '**/*.css' ],
+        file_paths : '**/*.css',
         config : {
             output : '?.happy.pro'
         }
     },
 
-    // demoA.css config
+    // specific demoA.css config
     {
-        patterns : [ '**/*A.css' ],
+        file_paths : '**/*A.css',
         config : {
             output : '?.angry.pro',
-            plugins : [
-                {
-                    plugin : './plugin',
-                    config : { mood : 'angry' }
-                }
-            ]
+            plugins : [ {
+                plugin : './plugin',
+                config : { mood : 'angry' }
+            } ]
         }
     },
 
-    // demoB.css config
+    // specific demoB.css config
     {
-        patterns : [ '**/*B.css' ],
+        file_paths : '**/*B.css',
         config : {
-            plugins : [
-                {
-                    plugin : './plugin',
-                    config : { mood : 'happy' }
-                }
-            ]
+            plugins : [ {
+                plugin : './plugin',
+                config : { mood : 'happy' }
+            } ]
         }
     }
 
