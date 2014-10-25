@@ -1,8 +1,6 @@
-module.exports = [
-	{
-		patterns : '**',
-		config : {
-			output : '_a_?'
-		}
-	}
-];
+module.exports = [ {
+    file_paths : '**/*.css',
+    config : {
+        output : '_a_?'
+    }
+} ];

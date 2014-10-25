@@ -1,9 +1,0 @@
-.a
-{
-    background: url(1.png) /* procss.test(test, 1) */;
-    color: black;
-}
-.a1
-{
-    background: url(1.png), url(2.png) /* procss.test(test, 2) */;
-}

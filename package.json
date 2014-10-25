@@ -1,7 +1,7 @@
 {
     "name" : "procss",
-    "version" : "0.1.0",
-    "description" : "Parse CSS and use plugins to process parsed commands and modify CSS rules.",
+    "version" : "0.1.1",
+    "description" : "Plugins-based CSS post-processor",
     "license" : "MIT",
     "repository" : {
         "type" : "git",
@@ -24,7 +24,8 @@
         "extend" : "^2.0.0",
         "vow" : "^0.4.5",
         "coa" : "^0.4.1",
-        "postcss" : "^2.2.5"
+        "postcss" : "^2.2.5",
+        "colors" : "^1.0.3"
     },
     "devDependencies" : {
         "mocha" : "1.21.x",
